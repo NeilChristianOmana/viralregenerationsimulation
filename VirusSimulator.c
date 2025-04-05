@@ -62,7 +62,7 @@ int main() {
     while (1) {
         printGrid();
         updateGrid();
-        usleep(1000000); // Delay in showing output 
+        sleep(1); // Delay in showing output 
         system("clear"); // Clear the existing output for the new output 
     }
     return 0;
